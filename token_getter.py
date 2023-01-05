@@ -148,5 +148,5 @@ if __name__ == '__main__':
     token = app.get_installation_access_token(installation_id=id)
     assert token, 'Token not returned!'
 
-    print(f"::add-mask::{token}")
-    print(f"::set-output name=app_token::{token}")
+    with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
+        print(f'app_token={token}', file=fh)
