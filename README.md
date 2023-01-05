@@ -1,4 +1,8 @@
-![Actions Status](https://github.com/machine-learning-apps/actions-app-token/workflows/Tests/badge.svg)
+[![Tests](https://github.com/jerry153fish/actions-app-token/actions/workflows/test.yaml/badge.svg)](https://github.com/jerry153fish/actions-app-token/actions/workflows/test.yaml)
+
+# A fork of machine-learning-apps/actions-app-token
+
+machine-learning-apps/actions-app-token has been archived.
 
 # Impersonate Your GitHub App In A GitHub Action
 
